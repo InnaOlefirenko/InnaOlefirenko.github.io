@@ -1,0 +1,32 @@
+td {
+	background-color: #ffffff;
+	width: 60px;
+	height: 60px;
+}
+.myTable {
+	border: 1px solid #4fc8e2;
+}
+.myTable td {
+	background-color: #4fc8e2;
+	margin: 0;
+}
+.plus {
+	background-color: #f4dc3d;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+}
+.plus:hover {
+	opacity: 0.5;
+}
+.minus {
+	opacity: 0;
+}
+.minus:hover {
+	background-color: red;
+	cursor: pointer;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	opacity: 1;
+}
